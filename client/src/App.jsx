@@ -7,7 +7,7 @@ import Login from './pages/Login.jsx'
 import axios from 'axios'
 import {Toaster} from "react-hot-toast"
 
-axios.defaults.baseURL = 'htttp://localhost:8000'; //route to the backend
+axios.defaults.baseURL = 'http://localhost:8000'; //route to the backend
 axios.defaults.withCredentials = true;
 
 function App() {

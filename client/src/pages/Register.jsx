@@ -26,6 +26,7 @@ const Register = () => {
       if (data.error) {
         toast.error(data.error);
       } else {
+        // console.log(data)
         setData({})
         toast.success('Login Successful, Welcome!')
         navigate('/login');
